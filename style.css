@@ -71,3 +71,26 @@ img {
 /* ------------------------------------------------------------- */
 
 /* -----------------------------HEADER-------------------------- */
+.header {
+    display: grid;
+    grid: repeat(2, auto) / 1fr;
+
+    background-color: var(--dark-lavender, mediumpurple);
+}
+.search-bar,
+.user-menu {
+    grid-row: 1;
+    display: grid;
+    grid: 1fr / auto-flow 1fr;
+    place-items: center center;
+}
+.search-bar input{
+    width: 30vw;
+    height: 30px;
+}
+
+.user-display,
+.header-menu {
+    grid-row: 2;
+    display: grid;
+}
