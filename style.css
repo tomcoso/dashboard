@@ -3,6 +3,11 @@
 
 :root {
     font-family: 'Montserrat', sans-serif;
+    --green: hsl(143, 64%, 24%);
+    --white: hsl(60, 9%, 98%);
+    --dark: hsl(30, 6%, 25%);
+    --lavender: hsl(269, 100%, 92%);
+    --dark-lavender: hsl(270, 95%, 75%);
 }
 
 * {
@@ -44,6 +49,13 @@
 }
 .side-menu,
 .dashboard-logo {
+    color: var(--green, darkgreen);
     display: grid;
-    grid: 1fr / repeat(2, 1fr);   
+    grid: 1fr / 50px 1fr;
+}
+img {
+    height: 30px;
+}
+.dashboard-logo > img{
+    height: 40px;
 }
