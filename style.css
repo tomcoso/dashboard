@@ -31,7 +31,7 @@
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid: minmax(min-content, 18%) 5fr / minmax(275px, 20%) 4fr;
+    grid: minmax(min-content, 15%) 5fr / minmax(275px, 15%) 4fr;
 }
 
 
@@ -91,7 +91,6 @@ img {
 .header {
     display: grid;
     grid: repeat(2, 1fr) / 1fr 1fr;
-    gap: 1vw;
     padding: 0 2vw;
 
     background-color: var(--lavender, lavender);
@@ -238,6 +237,13 @@ button:active {
     grid: min-content / repeat(auto-fit, minmax(min-content, 30%));
     justify-content: space-evenly;
     gap: 4vmin;
+
+    overflow: scroll;
+
+    scrollbar-width: none;
+}
+.projects::-webkit-scrollbar {
+    display: none;
 }
 .card {
     width: max(220px, 15vw);
