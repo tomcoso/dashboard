@@ -27,6 +27,6 @@
 
 4. Added sidebar responsiveness 
 
-   Since it is made of <div>s I havent added functionality but that is easily added through javascript. But maybe I could try using buttons and labels instead if it where needed.
+   Since it is made of `<div>`s I havent added functionality but that is easily added through javascript. But maybe I could try using buttons and labels instead if it where needed.
 
    <img src="./assets/gifs/sidebar-response.gif" width="200">
