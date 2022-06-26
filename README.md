@@ -21,12 +21,12 @@
 
 3. Finished header
 
-  It took a while to make everything stay where it was supposed to with grid, while also making it responsive.
+   It took a while to make everything stay where it was supposed to with grid, while also making it responsive.
 
-  <img src="./assets/gifs/header-done.gif" width="500"/>
+   <img src="./assets/gifs/header-done.gif" width="500"/>
 
 4. Added sidebar responsiveness 
 
-  Since it is made of <div>s I havent added functionality but that is easily added through javascript. But maybe I could try using buttons and labels instead if it where needed.
+   Since it is made of <div>s I havent added functionality but that is easily added through javascript. But maybe I could try using buttons and labels instead if it where needed.
 
-  <img src="./assets/gifs/sidebar-response.gif" width="200">
+   <img src="./assets/gifs/sidebar-response.gif" width="200">
