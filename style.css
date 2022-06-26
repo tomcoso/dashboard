@@ -5,11 +5,11 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 
-    --green: hsl(143, 64%, 24%);
-    --white: hsl(60, 9%, 98%);
-    --dark: hsl(30, 6%, 25%);
-    --lavender: hsl(269, 100%, 92%);
-    --dark-lavender: hsl(270, 95%, 75%);
+    --green: hsl(88, 61%, 20%);
+    --white: hsl(77, 57%, 88%);
+    --black: hsl(24, 10%, 10%);
+    --orange: hsl(21, 90%, 48%);
+    --yellow: hsl(48, 97%, 86%);
 }
 
 * {
@@ -46,8 +46,8 @@ display: grid;
 /* used min-content and percentages instead of auto to adjust to massive screens */
 grid: minmax(min-content, 10%) minmax(min-content, 30%) 1fr / 1fr;
 
-background-color: var(--lavender, lavender);
-border-right: 3px solid var(--dark, darkslategrey);
+background-color: var(--white);
+border-right: 3px solid var(--black);
 }
 
 /* Menu items */
@@ -56,7 +56,7 @@ border-right: 3px solid var(--dark, darkslategrey);
 }
 .sidebar > div > div {
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 400;
 
 }
@@ -65,7 +65,7 @@ border-right: 3px solid var(--dark, darkslategrey);
 }
 .side-menu,
 .dashboard-logo {
-    color: var(--green, darkgreen);
+    color: var(--black);
     display: grid;
     grid: 1fr / 50px 1fr;
 }
@@ -95,10 +95,10 @@ img {
     grid: repeat(2, 1fr) / 1fr 1fr;
     padding: 0 2vw;
 
-    background-color: var(--lavender, lavender);
+    background-color: var(--yellow);
     border-bottom: 3px solid var(--dark, darkslategrey);
     color: var(--dark, darkslategrey);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 .search-bar,
 .user-menu {
@@ -170,12 +170,12 @@ img {
     /* gap: 10px; */
 }
 .user-display div:last-child {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
 }
 .user-display div:nth-child(2) {
     align-self: end;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 #user-picture {
     grid-row: 1 / 3;
@@ -199,7 +199,7 @@ img {
 }
 button {
     border-radius: 30px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: var(--dark, darkslategrey);
     background-color: var(--white, white);
@@ -253,7 +253,7 @@ button:active {
     width: max(250px, 15vw);
     height: max(300px, 20vw);
     border-radius: 10px;
-    border: 1px solid var(--dark);
+    border: 1px solid var(--green);
 
     place-self: center;
     overflow: hidden;
@@ -273,8 +273,8 @@ button:active {
 .card > div {
     grid-row: 2;
 
-    background-color: var(--lavender, lavender);
-    border-bottom: 7px solid var(--dark, darkslategrey);
+    background-color: var(--yellow);
+    border-bottom: 7px solid var(--orange);
 
     display: grid;
     grid: 1fr / 1fr repeat(3, min-content);
@@ -283,14 +283,14 @@ button:active {
 }
 .card a {
     text-decoration: none;
+    font-family: inherit;
     justify-self: start;
     padding: 3%;
-    font-size: 1.1rem;
-    color: var(--green, darkgreen);
+    font-size: 1rem;
+    color: var(--black);
     font-weight: 500;
 }
 .card p ~ img {
-    /* transform: translateY(-175%); */
     height: 22px;
     margin-right: max(5px, 3%);
 }
@@ -320,11 +320,12 @@ button:active {
     display: grid;
     padding: 2vmin;
     gap: 2vmin;
-    border: 3px solid var(--dark, darkslategrey);
+    border: 3px solid var(--black, darkslategrey);
     border-radius: 10px;
+    background-color: var(--yellow);
 }
 .item {
-    border-bottom: 1px solid var(---dark, darkslategrey);
+    border-bottom: 3px solid var(--orange, darkslategrey);
     padding-bottom: 2vmin;
 }
 .item:last-of-type {
@@ -332,10 +333,10 @@ button:active {
 }
 .item > p:first-child {
     font-weight: 500;
-    color: var(--green, darkgreen);
-    font-size: 1.1rem;
+    color: var(--green);
+    font-size: 1rem;
     margin-bottom: 10px;
 }
 .item > p:last-child {
-    color: var(--dark, darkslategrey);
+    color: var(--black, darkslategrey);
 }
