@@ -30,3 +30,9 @@
    Since it is made of `<div>`s I havent added functionality but that is easily added through javascript. But maybe I could try using buttons and labels instead if it where needed.
 
    <img src="./assets/gifs/sidebar-response.gif" width="200">
+
+5. Finished content layout
+
+   I made the card wrap automatically using `auto-fit`. I also added hidden scrollbars in case of overflow to the main panel and to the right side panel so that it doesnt affect the position of the header and sidebar, and because who likes annoying scrollbars?
+
+   <img src="./assets/gifs/content-layout-done.gif" width="500"/>
