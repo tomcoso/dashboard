@@ -11,10 +11,10 @@
 
    Basic grid responsiveness, not bothering about switching to mobile form yet
 
-   ![main layout](./assets/gifs/main-layout.gif | width=500)
+   <img src="./assets/gifs/main-layout.gif" width="500"/>
 
 2. Finished sidebar
 
    Created a provisinal color palette for testing, got svg icons from [feather](https://feathericons.com/). Font is Montserrat, from google fonts.
 
-   ![sidebar done](./assets/gifs/sidebar-done.gif | width=500)
+   <img src="./assets/gifs/sidebar-done.gif" width="500"/>
