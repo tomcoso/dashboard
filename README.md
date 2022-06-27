@@ -36,3 +36,9 @@
    I made the card wrap automatically using `auto-fit`. I also added hidden scrollbars in case of overflow to the main panel and to the right side panel so that it doesnt affect the position of the header and sidebar, and because who likes annoying scrollbars?
 
    <img src="./assets/gifs/content-layout-done.gif" width="500"/>
+
+6. Finished styling
+
+   I realised I did all the previous steps on zoom 75%, so I had to refactor everything. But I took the opportunity to change the palette to make it look fresher and less cramped.
+
+   <img src="./assets/gifs/non-responsive.gif" width="500"/>
